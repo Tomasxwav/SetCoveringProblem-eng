@@ -51,23 +51,22 @@ Cost_temp = 0, Selected_temp = []
 
 While U is not empty
 
-  max_value = length(S[ 0 ] & U) / cost[ 0 ]
+--max_value = length(S[ 0 ] & U) / cost[ 0 ]
+--While j ≤ length(s)
   
-  While j ≤ length(s)
-  
-    If length(S[ j ] & U / cost[ j ]) >= max_value :
+----If length(S[ j ] & U / cost[ j ]) >= max_value :
     
-      max_value = length(S[ 0 ] & U) / cost[ 0 ]
+------max_value = length(S[ 0 ] & U) / cost[ 0 ]
       
-      Selected_temp = S[ j ]
+------Selected_temp = S[ j ]
       
-      Cost_temp = C[ j ]
+------Cost_temp = C[ j ]
       
-      j = j+1
+------j = j+1
       
-  selected_sets += Selected_temp
+--selected_sets += Selected_temp
   
-  costo_total += Cost_temp
+--costo_total += Cost_temp
   
 Print conjuntos_seleccionados and costo_total
 
