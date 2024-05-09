@@ -34,24 +34,43 @@ number 𝑜𝑓 𝑣𝑎𝑙𝑢𝑒𝑠 𝑡ℎ𝑎𝑡 𝑐𝑜𝑣𝑒𝑟�
 ## Pseudocode:
 
 Start
+
 Initialize U = (Universe set)
+
 Initialize S = (Set of subsets)
+
 Initialize C = (Set of subsets)
+
 i=0, costo_total = 0, selected_sets = []
+
 max_value = 0
+
 #temporal Variables:
+
 Cost_temp = 0, Selected_temp = []
+
 While U is not empty
+
   max_value = length(S[ 0 ] & U) / cost[ 0 ]
+  
   While j ≤ length(s)
+  
     If length(S[ j ] & U / cost[ j ]) >= max_value :
+    
       max_value = length(S[ 0 ] & U) / cost[ 0 ]
+      
       Selected_temp = S[ j ]
+      
       Cost_temp = C[ j ]
+      
       j = j+1
+      
   selected_sets += Selected_temp
+  
   costo_total += Cost_temp
+  
 Print conjuntos_seleccionados and costo_total
+
 End
 
 ## Instance benchmark
