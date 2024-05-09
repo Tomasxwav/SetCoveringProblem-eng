@@ -1,6 +1,8 @@
 # SetCoveringProblem-eng
-An algorithm to solve TheSetCoveringProblem 
+An algorithm to solve TheSetCoveringProblem
+
 ##Overview
+
 The set coverage problem (SCP) is a combinatorial optimization problem used to find the most
 efficient way to cover a set of elements with a set of subsets. Formally, the problem can be
 defined as follows:
@@ -19,13 +21,15 @@ problem in polynomial time. However, there are approximation algorithms that can
 Selected heuristics
 The heuristic that I will be working on basically what it does is:
 1. Search within the universe set for the subset that has the highest value using the formula:
-# 𝑜𝑓 𝑣𝑎𝑙𝑢𝑒𝑠 𝑡ℎ𝑎𝑡 𝑐𝑜𝑣𝑒𝑟𝑠 𝑖𝑛 𝑡ℎ𝑒 𝑢𝑛𝑖𝑣𝑒𝑟𝑠𝑒
+number 𝑜𝑓 𝑣𝑎𝑙𝑢𝑒𝑠 𝑡ℎ𝑎𝑡 𝑐𝑜𝑣𝑒𝑟𝑠 𝑖𝑛 𝑡ℎ𝑒 𝑢𝑛𝑖𝑣𝑒𝑟𝑠𝑒
 𝑐𝑜𝑠𝑡
 2. Select the subset that gives a higher result
 3. Delete the selected subset from the universe set.
 4. Repeat the cycle until the universe is empty.
 5. Print the result
+
 ##Pseudocode:
+
 Start
 Initialize U = (Universe set)
 Initialize S = (Set of subsets)
@@ -48,6 +52,7 @@ Print conjuntos_seleccionados and costo_total
 End
 
 ##Instance benchmark
+
 The dataset I used to perform my tests of the algorithm was from the OR library, of which I take as
 a base the scp41 instances ... scp410
 
