@@ -1,7 +1,7 @@
 # SetCoveringProblem-eng
 An algorithm to solve TheSetCoveringProblem
 
-##Overview
+## Overview
 
 The set coverage problem (SCP) is a combinatorial optimization problem used to find the most
 efficient way to cover a set of elements with a set of subsets. Formally, the problem can be
