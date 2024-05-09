@@ -28,7 +28,7 @@ number 𝑜𝑓 𝑣𝑎𝑙𝑢𝑒𝑠 𝑡ℎ𝑎𝑡 𝑐𝑜𝑣𝑒𝑟�
 4. Repeat the cycle until the universe is empty.
 5. Print the result
 
-##Pseudocode:
+## Pseudocode:
 
 Start
 Initialize U = (Universe set)
@@ -51,7 +51,7 @@ While U is not empty
 Print conjuntos_seleccionados and costo_total
 End
 
-##Instance benchmark
+## Instance benchmark
 
 The dataset I used to perform my tests of the algorithm was from the OR library, of which I take as
 a base the scp41 instances ... scp410
