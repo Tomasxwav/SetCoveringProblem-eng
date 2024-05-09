@@ -1,0 +1,4 @@
+numero de filas (m), numero de columnas (n)
+el costo de cada columna c(j), j=1,..,n
+para cada fila i (i=1,...,m): el numero de columnas que cobren
+fila i seguida de una lista de las columnas que cubren la fila i
