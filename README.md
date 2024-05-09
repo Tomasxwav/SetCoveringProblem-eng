@@ -8,9 +8,12 @@ efficient way to cover a set of elements with a set of subsets. Formally, the pr
 defined as follows:
 Given a set of elements E and a set of subsets S that cover E, find the subset of S that uses as few
 elements as possible to cover all E.
+
 For example:
+
 E = {1, 2, 3, 4, 5} (Set of elements to cover)
 S = {{1, 2}, {2, 3}, {3, 4}, {4, 5}} (Set of subsets)
+
 In the first iteration, the subset {1, 2} is selected because it covers elements {1, 2}. In the second
 iteration, the {3, 4} subset is selected because it covers {3, 4} elements. In the third iteration, the
 {4, 5} subset is selected because it covers the remaining {5} elements. Therefore, the solution is
